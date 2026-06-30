@@ -1,0 +1,10 @@
+*.exe
+*.dll
+*.obj
+*.o
+*.pdb
+*.ilk
+*.log
+
+.env
+.vscode/
