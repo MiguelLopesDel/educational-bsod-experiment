@@ -6,5 +6,8 @@
 *.ilk
 *.log
 
+build/
+cmake-build-*/
+
 .env
 .vscode/
