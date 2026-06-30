@@ -31,6 +31,15 @@ cmake --build build
 The executable prints usage information unless an explicit confirmation flag is
 provided.
 
+To safely verify that the required Windows native API exports are available
+without triggering a crash:
+
+```sh
+educational_bsod_experiment.exe --dry-run
+```
+
+To run the destructive experiment:
+
 ```sh
 educational_bsod_experiment.exe --i-understand-this-will-crash
 ```
